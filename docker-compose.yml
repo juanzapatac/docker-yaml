@@ -2,7 +2,6 @@ version: '2'
 
 services:
   novosga:
-    tty: true
     image: novosga/novosga:latest
     restart: always
     depends_on:
