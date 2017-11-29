@@ -7,7 +7,8 @@ services:
     depends_on:
       - mysqldb
     ports:
-      - "80:80"
+      - "2375"
+      - "8080"
     environment:
       APP_ENV: 'prod'
       # database connection
