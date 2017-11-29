@@ -8,7 +8,7 @@ services:
       - mysqldb
     ports:
       - "2375"
-      - "8080"
+      - "80:80"
     environment:
       APP_ENV: 'prod'
       # database connection
